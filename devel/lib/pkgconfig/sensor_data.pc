@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Desktop/ros/kalman/devel
+
+Name: sensor_data
+Description: Description of sensor_data
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
