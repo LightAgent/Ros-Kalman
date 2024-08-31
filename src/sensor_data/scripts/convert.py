@@ -13,7 +13,7 @@ def call_back(data: Imu):
         data.orientation.z,
         data.orientation.w
     ))
-    rospy.loginfo(f"\nConverted Values: \nRoll: {roll}, Pitch: {pitch}, Yaw: {yaw}")
+    rospy.loginfo(f" \nConverted Values:  \nRoll: {roll}, Pitch: {pitch}, Yaw: {yaw}")
 
 def subscribe():
     rospy.init_node("converter")
