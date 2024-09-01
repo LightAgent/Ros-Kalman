@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/Desktop/ros/kalman/install
+prefix=/home/amin/kalman/Ros-Kalman/install
 
 Name: sensor_data
 Description: Description of sensor_data

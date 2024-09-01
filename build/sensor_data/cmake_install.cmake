@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/Desktop/ros/kalman/src/sensor_data
+# Install script for directory: /home/amin/kalman/Ros-Kalman/src/sensor_data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/Desktop/ros/kalman/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amin/kalman/Ros-Kalman/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/Desktop/ros/kalman/build/sensor_data/catkin_generated/installspace/sensor_data.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amin/kalman/Ros-Kalman/build/sensor_data/catkin_generated/installspace/sensor_data.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_data/cmake" TYPE FILE FILES
-    "/home/ubuntu/Desktop/ros/kalman/build/sensor_data/catkin_generated/installspace/sensor_dataConfig.cmake"
-    "/home/ubuntu/Desktop/ros/kalman/build/sensor_data/catkin_generated/installspace/sensor_dataConfig-version.cmake"
+    "/home/amin/kalman/Ros-Kalman/build/sensor_data/catkin_generated/installspace/sensor_dataConfig.cmake"
+    "/home/amin/kalman/Ros-Kalman/build/sensor_data/catkin_generated/installspace/sensor_dataConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_data" TYPE FILE FILES "/home/ubuntu/Desktop/ros/kalman/src/sensor_data/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_data" TYPE FILE FILES "/home/amin/kalman/Ros-Kalman/src/sensor_data/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sensor_data" TYPE PROGRAM FILES "/home/ubuntu/Desktop/ros/kalman/build/sensor_data/catkin_generated/installspace/convert.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sensor_data" TYPE PROGRAM FILES "/home/amin/kalman/Ros-Kalman/build/sensor_data/catkin_generated/installspace/convert.py")
 endif()
 

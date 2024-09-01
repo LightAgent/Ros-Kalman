@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/Desktop/ros/kalman/devel
+prefix=/home/amin/kalman/Ros-Kalman/devel
 
 Name: sensor_data
 Description: Description of sensor_data

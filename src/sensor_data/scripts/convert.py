@@ -3,8 +3,7 @@
 import rospy
 import tf
 from sensor_msgs.msg import Imu
-
-
+from std_msgs.msg import Float64
 
 def call_back(data: Imu):
     roll, pitch, yaw =  tf.transformations.euler_from_quaternion((
@@ -15,10 +14,28 @@ def call_back(data: Imu):
     ))
     rospy.loginfo(f" \nConverted Values:  \nRoll: {roll}, Pitch: {pitch}, Yaw: {yaw}")
 
-def subscribe():
-    rospy.init_node("converter")
+    global angles 
+    angles = Float64()
+    angles.data = yaw
+    global pub 
+    pub = rospy.Publisher('imu_angles', Float64, queue_size=10)
+    pub.publish(angles)
+    rospy.loginfo(f"Published: {angles.data}")
+
+
+def talker():
+    
+   # pub = rospy.Publisher('imu_angles', Float64MultiArray, queue_size=10)
+   # freq = rospy.Rate(1) # 1 Hz
+   # while not rospy.is_shutdown():
+   #     call_back(data: Imu)
+   #     freq.sleep()
+    rospy.init_node("imu_publisher")
     rospy.Subscriber("/imu",Imu,call_back)
     rospy.spin()
 
-if __name__ == "__main__":
-    subscribe()
+if __name__ == '__main__':
+    try:
+        talker()
+    except rospy.ROSInterruptException:
+        pass

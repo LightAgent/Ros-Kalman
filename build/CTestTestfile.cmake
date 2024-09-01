@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/Desktop/ros/kalman/src
-# Build directory: /home/ubuntu/Desktop/ros/kalman/build
+# Source directory: /home/amin/kalman/Ros-Kalman/src
+# Build directory: /home/amin/kalman/Ros-Kalman/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

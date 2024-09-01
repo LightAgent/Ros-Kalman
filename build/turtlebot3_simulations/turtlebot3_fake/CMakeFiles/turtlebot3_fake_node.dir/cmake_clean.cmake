@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/Desktop/ros/kalman/devel/lib/turtlebot3_fake/turtlebot3_fake_node"
-  "/home/ubuntu/Desktop/ros/kalman/devel/lib/turtlebot3_fake/turtlebot3_fake_node.pdb"
+  "/home/amin/kalman/Ros-Kalman/devel/lib/turtlebot3_fake/turtlebot3_fake_node"
+  "/home/amin/kalman/Ros-Kalman/devel/lib/turtlebot3_fake/turtlebot3_fake_node.pdb"
   "CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o"
 )
 

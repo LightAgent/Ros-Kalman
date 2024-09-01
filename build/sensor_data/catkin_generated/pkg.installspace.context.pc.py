@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "sensor_data"
-PROJECT_SPACE_DIR = "/home/ubuntu/Desktop/ros/kalman/install"
+PROJECT_SPACE_DIR = "/home/amin/kalman/Ros-Kalman/install"
 PROJECT_VERSION = "0.0.0"

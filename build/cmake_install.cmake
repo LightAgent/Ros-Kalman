@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/Desktop/ros/kalman/src
+# Install script for directory: /home/amin/kalman/Ros-Kalman/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/Desktop/ros/kalman/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amin/kalman/Ros-Kalman/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,92 +49,92 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/Desktop/ros/kalman/install/_setup_util.py")
+   "/home/amin/kalman/Ros-Kalman/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/Desktop/ros/kalman/install" TYPE PROGRAM FILES "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/amin/kalman/Ros-Kalman/install" TYPE PROGRAM FILES "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/Desktop/ros/kalman/install/env.sh")
+   "/home/amin/kalman/Ros-Kalman/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/Desktop/ros/kalman/install" TYPE PROGRAM FILES "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/amin/kalman/Ros-Kalman/install" TYPE PROGRAM FILES "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/Desktop/ros/kalman/install/setup.bash;/home/ubuntu/Desktop/ros/kalman/install/local_setup.bash")
+   "/home/amin/kalman/Ros-Kalman/install/setup.bash;/home/amin/kalman/Ros-Kalman/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/Desktop/ros/kalman/install" TYPE FILE FILES
-    "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/setup.bash"
-    "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/amin/kalman/Ros-Kalman/install" TYPE FILE FILES
+    "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/setup.bash"
+    "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/Desktop/ros/kalman/install/setup.sh;/home/ubuntu/Desktop/ros/kalman/install/local_setup.sh")
+   "/home/amin/kalman/Ros-Kalman/install/setup.sh;/home/amin/kalman/Ros-Kalman/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/Desktop/ros/kalman/install" TYPE FILE FILES
-    "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/setup.sh"
-    "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/amin/kalman/Ros-Kalman/install" TYPE FILE FILES
+    "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/setup.sh"
+    "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/Desktop/ros/kalman/install/setup.zsh;/home/ubuntu/Desktop/ros/kalman/install/local_setup.zsh")
+   "/home/amin/kalman/Ros-Kalman/install/setup.zsh;/home/amin/kalman/Ros-Kalman/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/Desktop/ros/kalman/install" TYPE FILE FILES
-    "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/setup.zsh"
-    "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/amin/kalman/Ros-Kalman/install" TYPE FILE FILES
+    "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/setup.zsh"
+    "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/Desktop/ros/kalman/install/.rosinstall")
+   "/home/amin/kalman/Ros-Kalman/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/Desktop/ros/kalman/install" TYPE FILE FILES "/home/ubuntu/Desktop/ros/kalman/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/amin/kalman/Ros-Kalman/install" TYPE FILE FILES "/home/amin/kalman/Ros-Kalman/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Desktop/ros/kalman/build/gtest/cmake_install.cmake")
-  include("/home/ubuntu/Desktop/ros/kalman/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
-  include("/home/ubuntu/Desktop/ros/kalman/build/sensor_data/cmake_install.cmake")
-  include("/home/ubuntu/Desktop/ros/kalman/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
-  include("/home/ubuntu/Desktop/ros/kalman/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
+  include("/home/amin/kalman/Ros-Kalman/build/gtest/cmake_install.cmake")
+  include("/home/amin/kalman/Ros-Kalman/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
+  include("/home/amin/kalman/Ros-Kalman/build/sensor_data/cmake_install.cmake")
+  include("/home/amin/kalman/Ros-Kalman/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
+  include("/home/amin/kalman/Ros-Kalman/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
 
 endif()
 
@@ -146,5 +146,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/Desktop/ros/kalman/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/amin/kalman/Ros-Kalman/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

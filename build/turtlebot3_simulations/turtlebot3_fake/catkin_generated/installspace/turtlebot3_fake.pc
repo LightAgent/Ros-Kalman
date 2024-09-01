@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/Desktop/ros/kalman/install
+prefix=/home/amin/kalman/Ros-Kalman/install
 
 Name: turtlebot3_fake
 Description: Description of turtlebot3_fake
